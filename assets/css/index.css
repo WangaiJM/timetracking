@@ -263,4 +263,28 @@ body .container .body {
   color: var(--color-text-muted);
 }
 
+#work {
+  background-color: var(--color-work);
+}
+
+#play {
+  background-color: var(--color-play);
+}
+
+#study {
+  background-color: var(--color-study);
+}
+
+#social {
+  background-color: var(--color-social);
+}
+
+#exercise {
+  background-color: var(--color-exercise);
+}
+
+#self-care {
+  background-color: var(--color-self-care);
+}
+
 /*# sourceMappingURL=index.css.map */
