@@ -1,0 +1,24 @@
+@mixin text-preset($size, $weight, $lh: null, $ls: null) {
+  font-size: $size;
+  font-weight: $weight;
+  line-height: $lh;
+  letter-spacing: $ls;
+}
+
+@mixin flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+@mixin flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+@mixin flex-gap {
+  gap: var(--gap-mobile);
+
+  @media (min-width: 68.75rem) {
+    gap: var(--gap-desktop);
+  }
+}

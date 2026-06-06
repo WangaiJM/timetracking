@@ -1,0 +1,33 @@
+@use "./../abstracts" as *;
+
+:root {
+  --color-primary: #{$Purple-600};
+
+  --color-work: #{$Orange-300};
+  --color-play: #{$Blue-300};
+  --color-study: #{$Pink-400};
+  --color-exercise: #{$Green-400};
+  --color-social: #{$Purple-700};
+  --color-self-care: #{$Yellow-300};
+
+  --color-bg: #{$Navy-950};
+  --color-bg-card: #{$Navy-900};
+
+  --color-text: #{$Purple-500};
+  --color-text-light: #{$white};
+  --color-text-muted: #{$Navy-200};
+
+  --spacing: #{$spacing};
+  --spacing-8: #{$spacing-8};
+  --spacing-16: #{$spacing-16};
+  --spacing-24: #{$spacing-24};
+  --spacing-32: #{$spacing-32};
+  --spacing-40: #{$spacing-40};
+
+  --gap-desktop: #{$spacing-32};
+  --gap-mobile: #{$spacing-24};
+
+  --corner-radius: 1.5rem;
+
+  --card-padding: #{$spacing-24};
+}

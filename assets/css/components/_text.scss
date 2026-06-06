@@ -1,0 +1,21 @@
+@use "../abstracts" as *;
+@use "../base/typography" as *;
+
+.text-preset-1 {
+  @include text-preset($font-size-1, $fw-regular, $lh-1, $ls);
+}
+.text-preset-2 {
+  @include text-preset($font-size-2, $fw-regular, $lh-2, $ls);
+}
+.text-preset-3 {
+  @include text-preset($font-size-3, $fw-regular, $lh-3, $ls);
+}
+.text-preset-4 {
+  @include text-preset($font-size-4, $fw-regular, $lh-4, $ls);
+}
+.text-preset-5 {
+  @include text-preset($font-size-5, $fw-medium, $lh-5, $ls);
+}
+.text-preset-6 {
+  @include text-preset($font-size-6, $fw-regular, $lh-6, $ls);
+}
