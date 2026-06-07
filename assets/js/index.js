@@ -5,7 +5,7 @@ let fetchedData = [];
 
 const fetchData = async () => {
   try {
-    const response = await fetch("./../../data.json");
+    const response = await fetch("../../data.json");
     fetchedData = await response.json();
 
     displayCards(fetchedData, filter);
